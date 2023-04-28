@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2970621929E8B0FC009AE3A2 /* TuniFyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970621829E8B0FC009AE3A2 /* TuniFyApp.swift */; };
+		2970621B29E8B0FC009AE3A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970621A29E8B0FC009AE3A2 /* ContentView.swift */; };
+		2970621D29E8B0FF009AE3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2970621C29E8B0FF009AE3A2 /* Assets.xcassets */; };
+		2970622029E8B0FF009AE3A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2970621F29E8B0FF009AE3A2 /* Preview Assets.xcassets */; };
+		2970622229E8B0FF009AE3A2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970622129E8B0FF009AE3A2 /* Persistence.swift */; };
+		2970622529E8B0FF009AE3A2 /* TuniFy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2970622329E8B0FF009AE3A2 /* TuniFy.xcdatamodeld */; };
+		2970622F29E8B0FF009AE3A2 /* TuniFyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970622E29E8B0FF009AE3A2 /* TuniFyTests.swift */; };
+		2970623929E8B0FF009AE3A2 /* TuniFyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970623829E8B0FF009AE3A2 /* TuniFyUITests.swift */; };
+		2970623B29E8B0FF009AE3A2 /* TuniFyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970623A29E8B0FF009AE3A2 /* TuniFyUITestsLaunchTests.swift */; };
+		2970624D29E8B6F1009AE3A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970624C29E8B6F1009AE3A2 /* LoginView.swift */; };
+		298C1F7D29EF3D9700C41871 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298C1F7C29EF3D9700C41871 /* Product.swift */; };
+		298C1F7F29EF402A00C41871 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298C1F7E29EF402A00C41871 /* ProductViewModel.swift */; };
+		299208EE29EFC61A00CB9AF3 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299208ED29EFC61A00CB9AF3 /* CartManager.swift */; };
+		2996A34129E8C1AC00EE597B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34029E8C1AC00EE597B /* SignUpView.swift */; };
+		2996A34329E8CC0C00EE597B /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34229E8CC0C00EE597B /* SignupViewModel.swift */; };
+		2996A34529E8D14F00EE597B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34429E8D14F00EE597B /* LoginViewModel.swift */; };
+		2996A34729E8EC0B00EE597B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34629E8EC0B00EE597B /* User.swift */; };
+		2996A34929E900FB00EE597B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34829E900FB00EE597B /* HomeView.swift */; };
+		2996A34B29E9342600EE597B /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34A29E9342600EE597B /* ForgotPasswordView.swift */; };
+		2996A34D29E936C900EE597B /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34C29E936C900EE597B /* NewPasswordView.swift */; };
+		2996A34F29E941B200EE597B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A34E29E941B200EE597B /* CartView.swift */; };
+		2996A35129E942C200EE597B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A35029E942C200EE597B /* OrderView.swift */; };
+		2996A35329E9436300EE597B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A35229E9436300EE597B /* ProfileView.swift */; };
+		2996A35529E9459500EE597B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996A35429E9459500EE597B /* ProductDetailView.swift */; };
+		3C53168BC9C8261BB4EB2606 /* Pods_TuniFy_TuniFyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3EB9C785F2F899F6F51255 /* Pods_TuniFy_TuniFyUITests.framework */; };
+		5DFFBD246E5A6691ADEC33A2 /* Pods_TuniFy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911B9227598D294FFAA3EED6 /* Pods_TuniFy.framework */; };
+		D2105DD0370CD77114ABD9F2 /* Pods_TuniFyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4277568AB786951EC40508 /* Pods_TuniFyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2970622B29E8B0FF009AE3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2970620D29E8B0FC009AE3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2970621429E8B0FC009AE3A2;
+			remoteInfo = TuniFy;
+		};
+		2970623529E8B0FF009AE3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2970620D29E8B0FC009AE3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2970621429E8B0FC009AE3A2;
+			remoteInfo = TuniFy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1977448D22FEC55F0FC9C2C1 /* Pods-TuniFy-TuniFyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFy-TuniFyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TuniFy-TuniFyUITests/Pods-TuniFy-TuniFyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D39981F767CF3A244BE9617 /* Pods-TuniFy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFy.debug.xcconfig"; path = "Target Support Files/Pods-TuniFy/Pods-TuniFy.debug.xcconfig"; sourceTree = "<group>"; };
+		2970621529E8B0FC009AE3A2 /* TuniFy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuniFy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970621829E8B0FC009AE3A2 /* TuniFyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuniFyApp.swift; sourceTree = "<group>"; };
+		2970621A29E8B0FC009AE3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2970621C29E8B0FF009AE3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2970621F29E8B0FF009AE3A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2970622129E8B0FF009AE3A2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2970622429E8B0FF009AE3A2 /* TuniFy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuniFy.xcdatamodel; sourceTree = "<group>"; };
+		2970622A29E8B0FF009AE3A2 /* TuniFyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuniFyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970622E29E8B0FF009AE3A2 /* TuniFyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuniFyTests.swift; sourceTree = "<group>"; };
+		2970623429E8B0FF009AE3A2 /* TuniFyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuniFyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970623829E8B0FF009AE3A2 /* TuniFyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuniFyUITests.swift; sourceTree = "<group>"; };
+		2970623A29E8B0FF009AE3A2 /* TuniFyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuniFyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2970624C29E8B6F1009AE3A2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		298C1F7C29EF3D9700C41871 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		298C1F7E29EF402A00C41871 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		299208ED29EFC61A00CB9AF3 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		2996A34029E8C1AC00EE597B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2996A34229E8CC0C00EE597B /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		2996A34429E8D14F00EE597B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2996A34629E8EC0B00EE597B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2996A34829E900FB00EE597B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2996A34A29E9342600EE597B /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		2996A34C29E936C900EE597B /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		2996A34E29E941B200EE597B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2996A35029E942C200EE597B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2996A35229E9436300EE597B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2996A35429E9459500EE597B /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		7B3EB9C785F2F899F6F51255 /* Pods_TuniFy_TuniFyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuniFy_TuniFyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B13FFA4D70995AAC0B6A85 /* Pods-TuniFyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFyTests.release.xcconfig"; path = "Target Support Files/Pods-TuniFyTests/Pods-TuniFyTests.release.xcconfig"; sourceTree = "<group>"; };
+		911B9227598D294FFAA3EED6 /* Pods_TuniFy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuniFy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E9BBC178E80032685EB7BE9 /* Pods-TuniFy-TuniFyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFy-TuniFyUITests.release.xcconfig"; path = "Target Support Files/Pods-TuniFy-TuniFyUITests/Pods-TuniFy-TuniFyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA4277568AB786951EC40508 /* Pods_TuniFyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuniFyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E087DB867219EDA76D474FD3 /* Pods-TuniFy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFy.release.xcconfig"; path = "Target Support Files/Pods-TuniFy/Pods-TuniFy.release.xcconfig"; sourceTree = "<group>"; };
+		E4505F534B2DA5E4C646E4B0 /* Pods-TuniFyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuniFyTests.debug.xcconfig"; path = "Target Support Files/Pods-TuniFyTests/Pods-TuniFyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2970621229E8B0FC009AE3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFBD246E5A6691ADEC33A2 /* Pods_TuniFy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970622729E8B0FF009AE3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2105DD0370CD77114ABD9F2 /* Pods_TuniFyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970623129E8B0FF009AE3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C53168BC9C8261BB4EB2606 /* Pods_TuniFy_TuniFyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AE1CA8CF9F56AD1DF64ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911B9227598D294FFAA3EED6 /* Pods_TuniFy.framework */,
+				7B3EB9C785F2F899F6F51255 /* Pods_TuniFy_TuniFyUITests.framework */,
+				AA4277568AB786951EC40508 /* Pods_TuniFyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2970620C29E8B0FC009AE3A2 = {
+			isa = PBXGroup;
+			children = (
+				2970624B29E8B3A0009AE3A2 /* ViewModel */,
+				2970624A29E8B390009AE3A2 /* Model */,
+				2970624729E8B218009AE3A2 /* view */,
+				2970621729E8B0FC009AE3A2 /* TuniFy */,
+				2970622D29E8B0FF009AE3A2 /* TuniFyTests */,
+				2970623729E8B0FF009AE3A2 /* TuniFyUITests */,
+				2970621629E8B0FC009AE3A2 /* Products */,
+				AC5975BC51DCD69181668A36 /* Pods */,
+				26AE1CA8CF9F56AD1DF64ACD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2970621629E8B0FC009AE3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2970621529E8B0FC009AE3A2 /* TuniFy.app */,
+				2970622A29E8B0FF009AE3A2 /* TuniFyTests.xctest */,
+				2970623429E8B0FF009AE3A2 /* TuniFyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2970621729E8B0FC009AE3A2 /* TuniFy */ = {
+			isa = PBXGroup;
+			children = (
+				2970621829E8B0FC009AE3A2 /* TuniFyApp.swift */,
+				2970621A29E8B0FC009AE3A2 /* ContentView.swift */,
+				2970621C29E8B0FF009AE3A2 /* Assets.xcassets */,
+				2970622129E8B0FF009AE3A2 /* Persistence.swift */,
+				2970622329E8B0FF009AE3A2 /* TuniFy.xcdatamodeld */,
+				2970621E29E8B0FF009AE3A2 /* Preview Content */,
+			);
+			path = TuniFy;
+			sourceTree = "<group>";
+		};
+		2970621E29E8B0FF009AE3A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2970621F29E8B0FF009AE3A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2970622D29E8B0FF009AE3A2 /* TuniFyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2970622E29E8B0FF009AE3A2 /* TuniFyTests.swift */,
+			);
+			path = TuniFyTests;
+			sourceTree = "<group>";
+		};
+		2970623729E8B0FF009AE3A2 /* TuniFyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2970623829E8B0FF009AE3A2 /* TuniFyUITests.swift */,
+				2970623A29E8B0FF009AE3A2 /* TuniFyUITestsLaunchTests.swift */,
+			);
+			path = TuniFyUITests;
+			sourceTree = "<group>";
+		};
+		2970624729E8B218009AE3A2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2970624C29E8B6F1009AE3A2 /* LoginView.swift */,
+				2996A34029E8C1AC00EE597B /* SignUpView.swift */,
+				2996A34829E900FB00EE597B /* HomeView.swift */,
+				2996A34A29E9342600EE597B /* ForgotPasswordView.swift */,
+				2996A34C29E936C900EE597B /* NewPasswordView.swift */,
+				2996A34E29E941B200EE597B /* CartView.swift */,
+				2996A35029E942C200EE597B /* OrderView.swift */,
+				2996A35229E9436300EE597B /* ProfileView.swift */,
+				2996A35429E9459500EE597B /* ProductDetailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2970624A29E8B390009AE3A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2996A34629E8EC0B00EE597B /* User.swift */,
+				298C1F7C29EF3D9700C41871 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2970624B29E8B3A0009AE3A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2996A34229E8CC0C00EE597B /* SignupViewModel.swift */,
+				2996A34429E8D14F00EE597B /* LoginViewModel.swift */,
+				298C1F7E29EF402A00C41871 /* ProductViewModel.swift */,
+				299208ED29EFC61A00CB9AF3 /* CartManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC5975BC51DCD69181668A36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D39981F767CF3A244BE9617 /* Pods-TuniFy.debug.xcconfig */,
+				E087DB867219EDA76D474FD3 /* Pods-TuniFy.release.xcconfig */,
+				1977448D22FEC55F0FC9C2C1 /* Pods-TuniFy-TuniFyUITests.debug.xcconfig */,
+				9E9BBC178E80032685EB7BE9 /* Pods-TuniFy-TuniFyUITests.release.xcconfig */,
+				E4505F534B2DA5E4C646E4B0 /* Pods-TuniFyTests.debug.xcconfig */,
+				81B13FFA4D70995AAC0B6A85 /* Pods-TuniFyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2970621429E8B0FC009AE3A2 /* TuniFy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970623E29E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFy" */;
+			buildPhases = (
+				EDC0AAC1305A45DB78B40241 /* [CP] Check Pods Manifest.lock */,
+				2970621129E8B0FC009AE3A2 /* Sources */,
+				2970621229E8B0FC009AE3A2 /* Frameworks */,
+				2970621329E8B0FC009AE3A2 /* Resources */,
+				8E996DF768CFBD0407B2953A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuniFy;
+			productName = TuniFy;
+			productReference = 2970621529E8B0FC009AE3A2 /* TuniFy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2970622929E8B0FF009AE3A2 /* TuniFyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970624129E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFyTests" */;
+			buildPhases = (
+				32D2815FC1B634D8783CFE2F /* [CP] Check Pods Manifest.lock */,
+				2970622629E8B0FF009AE3A2 /* Sources */,
+				2970622729E8B0FF009AE3A2 /* Frameworks */,
+				2970622829E8B0FF009AE3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2970622C29E8B0FF009AE3A2 /* PBXTargetDependency */,
+			);
+			name = TuniFyTests;
+			productName = TuniFyTests;
+			productReference = 2970622A29E8B0FF009AE3A2 /* TuniFyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2970623329E8B0FF009AE3A2 /* TuniFyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970624429E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFyUITests" */;
+			buildPhases = (
+				CD5BAF10AB78DAD95D3F9F98 /* [CP] Check Pods Manifest.lock */,
+				2970623029E8B0FF009AE3A2 /* Sources */,
+				2970623129E8B0FF009AE3A2 /* Frameworks */,
+				2970623229E8B0FF009AE3A2 /* Resources */,
+				876F39F06A0A84D4F5E7ADCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2970623629E8B0FF009AE3A2 /* PBXTargetDependency */,
+			);
+			name = TuniFyUITests;
+			productName = TuniFyUITests;
+			productReference = 2970623429E8B0FF009AE3A2 /* TuniFyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2970620D29E8B0FC009AE3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2970621429E8B0FC009AE3A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2970622929E8B0FF009AE3A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2970621429E8B0FC009AE3A2;
+					};
+					2970623329E8B0FF009AE3A2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2970621429E8B0FC009AE3A2;
+					};
+				};
+			};
+			buildConfigurationList = 2970621029E8B0FC009AE3A2 /* Build configuration list for PBXProject "TuniFy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2970620C29E8B0FC009AE3A2;
+			productRefGroup = 2970621629E8B0FC009AE3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2970621429E8B0FC009AE3A2 /* TuniFy */,
+				2970622929E8B0FF009AE3A2 /* TuniFyTests */,
+				2970623329E8B0FF009AE3A2 /* TuniFyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2970621329E8B0FC009AE3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970622029E8B0FF009AE3A2 /* Preview Assets.xcassets in Resources */,
+				2970621D29E8B0FF009AE3A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970622829E8B0FF009AE3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970623229E8B0FF009AE3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32D2815FC1B634D8783CFE2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuniFyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876F39F06A0A84D4F5E7ADCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuniFy-TuniFyUITests/Pods-TuniFy-TuniFyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuniFy-TuniFyUITests/Pods-TuniFy-TuniFyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuniFy-TuniFyUITests/Pods-TuniFy-TuniFyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E996DF768CFBD0407B2953A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuniFy/Pods-TuniFy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuniFy/Pods-TuniFy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuniFy/Pods-TuniFy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5BAF10AB78DAD95D3F9F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuniFy-TuniFyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC0AAC1305A45DB78B40241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuniFy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2970621129E8B0FC009AE3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2996A34D29E936C900EE597B /* NewPasswordView.swift in Sources */,
+				2996A35529E9459500EE597B /* ProductDetailView.swift in Sources */,
+				2970622229E8B0FF009AE3A2 /* Persistence.swift in Sources */,
+				2996A34F29E941B200EE597B /* CartView.swift in Sources */,
+				2996A34B29E9342600EE597B /* ForgotPasswordView.swift in Sources */,
+				298C1F7D29EF3D9700C41871 /* Product.swift in Sources */,
+				2970621B29E8B0FC009AE3A2 /* ContentView.swift in Sources */,
+				2970622529E8B0FF009AE3A2 /* TuniFy.xcdatamodeld in Sources */,
+				2996A34929E900FB00EE597B /* HomeView.swift in Sources */,
+				2996A35329E9436300EE597B /* ProfileView.swift in Sources */,
+				2996A34329E8CC0C00EE597B /* SignupViewModel.swift in Sources */,
+				2996A34529E8D14F00EE597B /* LoginViewModel.swift in Sources */,
+				2996A34729E8EC0B00EE597B /* User.swift in Sources */,
+				2970624D29E8B6F1009AE3A2 /* LoginView.swift in Sources */,
+				298C1F7F29EF402A00C41871 /* ProductViewModel.swift in Sources */,
+				299208EE29EFC61A00CB9AF3 /* CartManager.swift in Sources */,
+				2996A35129E942C200EE597B /* OrderView.swift in Sources */,
+				2996A34129E8C1AC00EE597B /* SignUpView.swift in Sources */,
+				2970621929E8B0FC009AE3A2 /* TuniFyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970622629E8B0FF009AE3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970622F29E8B0FF009AE3A2 /* TuniFyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970623029E8B0FF009AE3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970623929E8B0FF009AE3A2 /* TuniFyUITests.swift in Sources */,
+				2970623B29E8B0FF009AE3A2 /* TuniFyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2970622C29E8B0FF009AE3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2970621429E8B0FC009AE3A2 /* TuniFy */;
+			targetProxy = 2970622B29E8B0FF009AE3A2 /* PBXContainerItemProxy */;
+		};
+		2970623629E8B0FF009AE3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2970621429E8B0FC009AE3A2 /* TuniFy */;
+			targetProxy = 2970623529E8B0FF009AE3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2970623C29E8B0FF009AE3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2970623D29E8B0FF009AE3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2970623F29E8B0FF009AE3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D39981F767CF3A244BE9617 /* Pods-TuniFy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TuniFy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2970624029E8B0FF009AE3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E087DB867219EDA76D474FD3 /* Pods-TuniFy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TuniFy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2970624229E8B0FF009AE3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4505F534B2DA5E4C646E4B0 /* Pods-TuniFyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuniFy.app/TuniFy";
+			};
+			name = Debug;
+		};
+		2970624329E8B0FF009AE3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B13FFA4D70995AAC0B6A85 /* Pods-TuniFyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuniFy.app/TuniFy";
+			};
+			name = Release;
+		};
+		2970624529E8B0FF009AE3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1977448D22FEC55F0FC9C2C1 /* Pods-TuniFy-TuniFyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuniFy;
+			};
+			name = Debug;
+		};
+		2970624629E8B0FF009AE3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9BBC178E80032685EB7BE9 /* Pods-TuniFy-TuniFyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.TuniFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuniFy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2970621029E8B0FC009AE3A2 /* Build configuration list for PBXProject "TuniFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970623C29E8B0FF009AE3A2 /* Debug */,
+				2970623D29E8B0FF009AE3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970623E29E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970623F29E8B0FF009AE3A2 /* Debug */,
+				2970624029E8B0FF009AE3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970624129E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970624229E8B0FF009AE3A2 /* Debug */,
+				2970624329E8B0FF009AE3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970624429E8B0FF009AE3A2 /* Build configuration list for PBXNativeTarget "TuniFyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970624529E8B0FF009AE3A2 /* Debug */,
+				2970624629E8B0FF009AE3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2970622329E8B0FF009AE3A2 /* TuniFy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2970622429E8B0FF009AE3A2 /* TuniFy.xcdatamodel */,
+			);
+			currentVersion = 2970622429E8B0FF009AE3A2 /* TuniFy.xcdatamodel */;
+			path = TuniFy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2970620D29E8B0FC009AE3A2 /* Project object */;
+}

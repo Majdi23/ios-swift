@@ -1,0 +1,6 @@
+framework module Pods_TuniFy_TuniFyUITests {
+  umbrella header "Pods-TuniFy-TuniFyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
